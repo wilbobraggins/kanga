@@ -17,5 +17,8 @@ module Splurty
 
     # Precompile additional assets
     config.assets.precompile += %w( .svg .eot .woff .ttf )
+    
+    #fix for heroku maybe?
+    config.serve_static_assets = true 
   end
 end

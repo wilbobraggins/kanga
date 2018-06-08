@@ -97,11 +97,14 @@ h2 {
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-@media (max-width: 750px) {
+@-ms-viewport{
+  width: device-width;
+}
+
   .footer-blurb {
     text-align: left;
   }
-}
+
 
 .modal{
   font-family: 'elsieblack', sans-serif;
